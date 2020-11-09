@@ -1,0 +1,39 @@
+h1{
+    font: normal 25pt Comic;
+    color: rgb(226, 197, 29);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(0, 90, 194);   
+}
+
+input#calc{
+    font: normal 15pt Arial;
+}
+
+div#res{
+    font: normal 20pt Comic;
+    margin-top: 20px;
+    text-align: center;
+}
+
+div#res18{
+    text-align: center;
+}
+
+div#img{
+    text-align: center;
+}
+
+section{
+    padding: 3px;
+    background-color: rgba(161, 157, 157, 0.637);
+    border-radius: 10px;
+    width: 350px;
+    height: 420px;
+    margin: auto;
+}
+p{
+    text-align: center;
+}

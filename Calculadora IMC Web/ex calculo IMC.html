@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cálculo IMC</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1 span style="font-weight: bold; text-decoration: underline;">Cálculo IMC</h1>
+    <section>
+        <p> <strong>Insira aqui seu peso</strong>: <input type="number" name="Peso" id="peso" onkeyup="calc(event)"> </p>
+
+        <p> <strong>Insira aqui sua altura</strong>: <input type="number" name="Altura" id="alt" onkeyup="calc(event)">
+        </p>
+
+        <p> <input type="button" value="Calcular" id='calc' onclick='calcc()'> </p>
+
+        <div id='res'></div>
+        <div style="font-size: 15pt;" id='res18'></div> <br />
+
+        <div id='img'><img src="download.png" alt="IMC"></div>
+    </section>
+</body>
+
+</html>
